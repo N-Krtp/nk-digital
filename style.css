@@ -241,18 +241,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
 }
 .qr-code {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
     border: 5px solid white;
     border-radius: 10px;
-    transition: transform 0.3s ease;
+    background-color: white;
 }
-.qr-code:hover{
-    transform: scale(1.1);
-}
+
 html { scroll-behavior: smooth; }
 @media (max-width: 768px) {
     .navbar {
